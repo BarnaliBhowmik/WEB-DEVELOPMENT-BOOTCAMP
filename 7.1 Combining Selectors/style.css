@@ -32,9 +32,11 @@ li.done{
 
 
 ul p.done {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
     font-style: italic;
+    color: rgb(207, 65, 207);
+    -webkit-text-stroke: 0.5px rgb(86, 14, 14);
     padding-left: 50px;
 }
 
