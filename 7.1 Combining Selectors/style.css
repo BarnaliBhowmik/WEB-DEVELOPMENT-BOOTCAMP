@@ -1,1 +1,45 @@
 /* Write your code here: */
+/* GROUP */
+
+body {
+    background-color: yellowgreen;
+}
+
+h1, h2 {
+    color: rgb(89, 20, 153);
+    font-size: xx-large;
+    border: 2px solid beige;
+    background-color: tomato;
+    text-align: center;
+    -webkit-text-stroke: 0.2px yellow;
+}
+
+.box > p {
+    color: firebrick;
+    padding-left: 40px;
+}
+
+
+.box li{
+    color: blue;
+    padding-left: 50px;
+}
+
+li.done{
+    color: rgb(9, 79, 9);
+    padding-left: 50px;
+}
+
+
+ul p.done {
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 50px;
+}
+
+.box1 p {
+    font-family: cursive;
+    text-align: center;
+    font-weight: bolder;
+}
