@@ -10,7 +10,9 @@ var firstChar = name.slice(0,1);
 var upperCaseFirstChar = firstChar.toUpperCase();
 // c. Isolate the rest of the name
 var restOfName = name.slice(1,name.length);
-// d. Concatenate the first char with the rest of the char
+// d. Change the rest of the name to lower case
+restOfName = restOfName.toLowerCase();
+// e. Concatenate the first char with the rest of the char
 var capitilisedName = upperCaseFirstChar + restOfName;
 // 3. We use the capitalised version of their name to greet them using an alert.
 alert("Hello, " + capitalisedName);
@@ -24,3 +26,9 @@ alert("You have written " + tweet.length + " characters, you have " + (140 - twe
 
 alert("Hello !");
 alert("WORLD !!");
+
+/* 6. Dog Age to Human Age Formula
+humanAge = (dogAge - 2) * 4 + 21 */
+var dogAge = prompt(" Your Dogs Age is ?");
+var humanAge = (dogAge - 2) * 4 + 21;
+alert("Your Dog's Human Age is: " + humanAge);
