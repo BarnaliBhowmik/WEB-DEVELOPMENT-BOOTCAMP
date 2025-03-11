@@ -32,3 +32,27 @@ humanAge = (dogAge - 2) * 4 + 21 */
 var dogAge = prompt(" Your Dogs Age is ?");
 var humanAge = (dogAge - 2) * 4 + 21;
 alert("Your Dog's Human Age is: " + humanAge);
+
+// 7. The Karel ROBOT
+function main(){
+    /*   move();
+       move();
+       move();
+       move();
+       turnLeft();
+       move();
+       move();
+       move();
+       move();
+    */
+    
+    moveFourTimes();
+    turnLeft();
+    moveFourTimes();
+    }
+    function moveFourTimes() {
+       move();
+       move();
+       move();
+       move();
+    }
