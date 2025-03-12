@@ -168,6 +168,30 @@ function getMilk(money) {
     console.log("moveLeft");
     console.log("moveLeft");
     console.log("enterHouse");
+    /* 
+    alert("leaveHouse");
+    alert("moveRight");
+    alert("moveRight");
+    alert("moveUp");
+    alert("moveUp");
+    alert("moveUp");
+    alert("moveUp");
+    alert("moveRight");
+    alert("moveRight");
+    var numberOfBottles = money / 1.5;
+    
+    alert("buy " + numberOfBottles + " bottles of milk");
+    alert("moveLeft");
+    alert("moveLeft");
+    alert("moveDown");
+    alert("moveDown");
+    alert("moveDown");
+    alert("moveDown");
+    alert("moveLeft");
+    alert("moveLeft");
+    alert("enterHouse");
+    return money % 1.5;
+    */
 }
 
 getMilk(5);
@@ -183,3 +207,6 @@ function lifeInWeeks(age) {
     console.log("You have " + days + + "days, " + weeks + "weeks, and" + months + "months left.");
 }
 lifeInWeeks(12);
+
+// 13. BMI CALCULATOR Challenge
+
