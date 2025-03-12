@@ -49,10 +49,125 @@ function main(){
     moveFourTimes();
     turnLeft();
     moveFourTimes();
-    }
-    function moveFourTimes() {
-       move();
-       move();
-       move();
-       move();
-    }
+}
+function moveFourTimes() {
+    move();
+    move();
+    move();
+    move();
+}
+
+// 8. Moving Robot along diagonal while leaving beeper at every position (diagonally)
+
+function main(){
+    putBeeper();
+    diagonalMoveBeeper();
+    diagonalMoveBeeper();
+    diagonalMoveBeeper();
+    diagonalMoveBeeper();
+}
+ 
+function diagonalMoveBeeper() {
+    move();
+    turnLeft();
+    move();
+    putBeeper();
+    turnRight();
+}
+
+// 9. The KAREL CHESSBOARD
+
+function main(){
+    beepersRight();
+    goUpTurnLeft();
+    beepersLeft();
+    goUpTurnRight();
+       beepersRight();
+    goUpTurnLeft();
+    beepersLeft();
+    goUpTurnRight();
+       beepersRight();
+}
+  
+function goUpTurnRight() {
+    turnRight();
+    move();
+    turnRight();
+}
+  
+function goUpTurnLeft() {
+    turnLeft();
+    move();
+    turnLeft();
+}
+  
+function beepersRight() {
+    putBeeper();
+    move();
+    move();
+    putBeeper();
+    move();
+    move();
+    putBeeper();  
+}
+  
+function beepersLeft() {
+    move();
+    putBeeper();
+    move();
+    move();
+    putBeeper();
+    move();
+}
+
+// 10. Intro to Complex JAVASCRIPT functions
+
+function getMilk() {   
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+}
+
+// 11. to find number of bottles of milk
+
+function getMilk(money) {
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    var numberOfBottles = Math.floor(money / 1.5);
+    
+    console.log("buy " + numberOfBottles + " bottles of milk")  ;
+    
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+}
+
+getMilk(5);
