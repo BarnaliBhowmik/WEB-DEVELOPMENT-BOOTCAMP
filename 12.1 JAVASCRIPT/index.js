@@ -258,3 +258,16 @@ prompt("What is their name?");
 var loveScore = Math.random() * 100;
 loveScore = Math.floor(loveScore) + 1;
 alert("Your love score is " + loveScore + "%");
+
+
+// 15. LOVE CALCULATOR MODIFIED
+
+prompt("what is your name?");
+prompt("What is their name?");
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1;
+if(loveScore > 70) {
+    alert("Your love score is " + loveScore + "%" + "You love each other like Kanye loves Kanye.");
+} else {
+    alert("Your love score is " + loveScore + "%");
+}
