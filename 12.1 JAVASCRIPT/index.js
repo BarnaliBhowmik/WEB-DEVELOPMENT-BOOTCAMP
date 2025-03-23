@@ -306,5 +306,16 @@ function isLeap(year) {
     }
 }
 
-// 18. Adding Elements and Intermediate Array Techniques
+// 18. Storing Colllection of Data inside an array
+
+var guestList = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"];
+var guestName = prompt("What is your name?");
+if(guestList.includes(guestName)) {
+    alert("Welcome !");
+} else {
+    alert("Sorry, maybe next time.");
+}
+
+// WHY DID THE PROGRAMMER QUIT HIS JOB??
+// Because he didn't get arrays 😁 .
 
