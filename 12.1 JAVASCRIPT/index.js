@@ -347,3 +347,26 @@ function fizzbuzz() {
     count++;
     console.log(output);
 }
+
+// 20. Who's Buying Lunch? CODE CHALLENGE
+
+function whosPaying(names) {
+    var numberOfPeople = names.length;
+    var randomPersonPosition = Math.floor(Math.random() * numberOfPeople);
+    var randomPerson = names[randomPersonPosition];
+
+    return randomPerson + " is going to buy lunch today !";
+}
+
+/* function whosPaying(names) {
+    
+Don't change the code above
+    
+    //Write your code here.
+    let randomIndex = Math.floor(Math.random() * names.length);
+    
+    let selectedPerson = names[randomIndex];
+    
+    return selectedPerson + " is going to buy lunch today!";
+Don't change the code below
+} */
