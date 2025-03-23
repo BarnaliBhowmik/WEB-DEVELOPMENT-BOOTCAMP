@@ -319,3 +319,31 @@ if(guestList.includes(guestName)) {
 // WHY DID THE PROGRAMMER QUIT HIS JOB??
 // Because he didn't get arrays 😁 .
 
+
+// 19. Addding Elements and Intermediate Array Techniques
+
+/* Write a program that prints the numbers from 1 to 100.
+But for multiples of three print "Fizz" instead of the number
+and for multiples of five print "Buzz".
+For numbers which are multiples of both 3 & 5 print "FizzBuzz". */
+
+var output = [];
+var count = 1;
+
+function fizzbuzz() {
+    //write code here
+    if (count % 3 === 0 && count % 5 === 0) {
+        output.push("FizzBuzz");
+    }
+    else if (count % 3 === 0) {
+        output.push("Fizz");
+    }
+    else if (count % 5 === 0) {
+        output.push("Buzz");
+    }
+    else {
+        output.push(count);
+    }
+    count++;
+    console.log(output);
+}
